@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>20 07 14 Lecture</h1>
+    <form action="">
+        <h4>Leacture</h4>
+          <div>
+             <label for="studentName">Name :</label>
+        <input type="text" name="studentName" id="studentName" placeholder="First name Last Name"> 
+          </div>
+        
+        <div>
+        <Label for="studentSSN">Last Digits of your SSN</Label>
+        <input type="password" name="studentSSN" id="studentSSN">
+        <label for="studentEmail">Email</label>
+        <input type="email" name="studentEmail" id="studentEmail">
+        </div>
+        
+         <div>
+           <label for="studentBirthday">Birthday</label>
+         <input type="date" name="studentBirthday" id="studentBirthday">   
+         </div>
+        
+        <div>
+          <label for="studentage">Age :</label>
+        <input type="number" name="studentage" id="studentAge">   
+        </div>
+       
+        <div>
+         <label for="cohortSelecetion">Cohort</label>
+        <select name="cohortSelection" id="cohortSelection">   
+         <option value="0">--</option>
+        <option value="1">one</option>
+        <option value="2">two</option>
+        <option value="3">three</option>
+        <option value="4">four</option>
+        <option value="5">five</option>
+        </select>
+        </div>
+
+        
+        <div>
+       <p>Is this student from memphis</p>
+       <input type="radio" name="studentLocation" id="notLocal" value="notLocal">
+       <label for="notLocal">Not Local</label>
+        <label for="local">Local</label>
+       <input type="radio" name="studentLocation"  id="local" value="Local">
+       <br>
+        </div>
+
+       <div>
+         <p>Check all experience that apply</p>
+
+       <label for="studentInterest">Interest in Programing</label>
+       <input type="checkbox" name="studentInterest" id="studentInterest">
+
+       <label for="studentXP">Experience in coding</label>
+       <input type="checkbox" name="studentXP" id="studentXP">
+
+       <label for="studentEDU"> Formal Education</label>
+       <input type="checkbox" name="studentedu" id="studentedu">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Form</button>
+         
+       </div>
+       
+       
+       
+    </form>
+</body>
+</html>

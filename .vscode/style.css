@@ -1,0 +1,16 @@
+body {
+    /*background-color: gold;*/
+    margin: 2%;
+    font: arial, helvetica, sans-serif;
+   
+}
+
+form{
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+div {
+    margin-bottom: 1%;
+}
